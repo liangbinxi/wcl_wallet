@@ -1,0 +1,257 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"black"
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"black"
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/backupWallet/createWallet",
+			"style": {
+				// "navigationBarTextStyle":"white",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/backupWallet/backupWalletOne",
+			"style": {
+				// "navigationBarTextStyle":"white",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/backupWallet/backupWalletTwo",
+			"style": {
+				// "navigationBarTextStyle":"white",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/backupWallet/setPassword",
+			"style": {
+				// "navigationBarTextStyle":"white",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/backupWallet/confirmPassword",
+			"style": {
+				// "navigationBarTextStyle":"white",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/index/WCLWallet",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/dealDetails",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "交易详情",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#1abb9b",
+				"app-plus":{
+					"titleNView":{
+						"type":"float",
+						"backgroundColor":"rgba(0,0,0,0)",
+						"buttons":[
+							{
+								// "type":"share"
+								"text":"\ue636",
+								"fontSrc":"/static/iconfont/iconfont.ttf",
+								"fontSize":"20px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/send",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "发出",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/receive",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "接收",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#1abb9b"
+			}
+		},
+		{
+			"path": "pages/index/masterNodeCreate",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "主节点",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/masterNode",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "主节点",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/nodeDetail",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "节点详情",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#1abb9b",
+				"app-plus":{
+					"titleNView":{
+						// "titleIcon": "/static/wallet_icon_rename_black.png",
+						// "titleIconRadius": "5px"
+						"buttons":[
+							{
+								// "type":"share"
+								"text":"\ue636",
+								"fontSrc":"/static/iconfont/iconfont.ttf",
+								"fontSize":"20px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/onChainFunds",
+			"style": {
+				// "navigationStyle": "custom"
+				// "navigationBarTitleText": "链上公示",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#35d9b8",
+				"app-plus":{
+					"titleNView":{
+						"type":"float",
+						"backgroundColor":"rgba(0,0,0,0)"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/about",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "关于",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/wallet",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "钱包",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"text":"导入钱包",
+							"fontSize":"16px",
+							"fontWeight":"bold",
+							"float":"right",
+							"width":"auto"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/cash",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "兑现",
+				"navigationBarTextStyle":"black",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"text":"兑现记录",
+							"fontSize":"16px",
+							"fontWeight":"bold",
+							"float":"right",
+							"width":"auto"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/cashRecords",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "兑现记录",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/payMethod",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "收款方式",
+				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor":"#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/index/addPayMethod",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "添加收款方式",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/addAlipayMethod",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "设置支付宝收款",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/addWechatPayMethod",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "设置微信收款",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path": "pages/index/addBankPayMethod",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "绑定实名银行卡",
+				"navigationBarTextStyle":"black"
+			}
+		}
+	],
+	"globalStyle": {
+		// "navigationBarTextStyle": "white"
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF"
+		// "backgroundColor": "#F8F8F8"
+	}
+}
